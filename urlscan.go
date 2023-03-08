@@ -10,7 +10,7 @@ import (
 type Result struct {
 	Task struct {
 		URL string `json:"url"`
-	} `json:"task"`
+	} `json:"page"`
 }
 
 func main() {
